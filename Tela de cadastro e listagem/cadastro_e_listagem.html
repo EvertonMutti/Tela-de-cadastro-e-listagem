@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, white, #d7fceccb);
+            background-attachment: fixed;
+        }
+        .grupo{
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            box-shadow: 4px 4px 8px #5e4a3ed3;
+        }
+        button{
+            padding: 8px 20px;
+            background-color: #c44940;
+            border-radius: 4px;
+            box-shadow: 4px 4px 8px #5e4a3ed3;
+            color: white;
+            cursor: pointer;
+        }
+        .botao:hover {
+            background: #e05f56ef;
+            box-shadow: inset 2px 2px 2px rgb(0 0 0 / 20%);
+            text-shadow: none;
+        }
+        fieldset{
+            border-color:#C92B1C;
+        }
+    </style>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome"><strong>Clique aqui para se cadastrar  ➞</strong></label>
+            <a href="Cadastro.html"><label for="Cadastrar"><button class="botao" type="submit" style="margin-left: 75px;" onsubmit="">Cadastro</button></label></a>
+        </div>
+        <br>
+        <div class="campo">
+            <label for="nome"><strong>Clique aqui para ir até a tela de listagem  ➞</strong></label>
+            <a href="listagem.php"><label for="Listagem"><button class="botao" type="submit" onsubmit="">Listagem</button></label></a>
+        </div>
+    </fieldset> 
+</body>
+</html>
